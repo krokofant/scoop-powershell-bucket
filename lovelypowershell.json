@@ -1,11 +1,11 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "url": "https://github.com/krokofant/lovely-powershell/archive/master.zip",
   "extract_dir": "lovely-powershell-master",
   "psmodule": {
     "name": "LovelyPowershell"
   },
-  "depends": ["concfg"],
+  "depends": ["ps-install-if-missing"],
   "post_install": [
     "concfg import 'https://raw.githubusercontent.com/krokofant/lovely-powershell/master/ashes-custom.json'",
     "PowerShell -NoProfile -ExecutionPolicy Bypass -Command \"& $dir\\InstallFont.ps1\""
