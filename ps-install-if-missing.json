@@ -1,0 +1,9 @@
+{
+    "version": "1.0",
+    "url": "https://github.com/krokofant/PS-Install-If-Missing/archive/master.zip",
+    "extract_dir": "PS-Install-If-Missing-master",
+    "psmodule": {
+      "name": "PS-Install-If-Missing"
+    }
+  }
+  
