@@ -1,5 +1,5 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "url": "https://github.com/krokofant/lovely-powershell/archive/master.zip",
   "extract_dir": "lovely-powershell-master",
   "psmodule": {
