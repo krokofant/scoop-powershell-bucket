@@ -5,7 +5,7 @@
   "psmodule": {
     "name": "LovelyPowershell"
   },
-  "depends": ["ps-install-if-missing"],
+  "depends": ["concfg", "ps-install-if-missing"],
   "post_install": [
     "concfg import 'https://raw.githubusercontent.com/krokofant/lovely-powershell/master/ashes-custom.json'",
     "PowerShell -NoProfile -ExecutionPolicy Bypass -Command \"& $dir\\InstallFont.ps1\""
