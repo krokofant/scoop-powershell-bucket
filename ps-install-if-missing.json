@@ -8,5 +8,9 @@
   "checkver": {
     "url": "https://raw.githubusercontent.com/krokofant/scoop-powershell-bucket/master/modules/PS-Install-If-Missing/PS-Install-If-Missing.psd1",
     "re": "ModuleVersion\\s+=\\s+'([\\d.]+)'"
+  },
+  "autoupdate": {
+    "url": "https://raw.githubusercontent.com/krokofant/scoop-powershell-bucket/master/modules/PS-Install-If-Missing/PS-Install-If-Missing.psd1",
+    "hash": {}
   }
 }
