@@ -1,9 +1,8 @@
 {
-    "version": "1.3",
-    "url": "https://github.com/krokofant/PS-Install-If-Missing/archive/master.zip",
-    "extract_dir": "PS-Install-If-Missing-master",
-    "psmodule": {
-      "name": "PS-Install-If-Missing"
-    }
+  "version": "1.3",
+  "url": "https://github.com/krokofant/scoop-powershell-bucket/archive/master.zip",
+  "extract_dir": "scoop-powershell-bucket-master/modules/PS-Install-If-Missing-master",
+  "psmodule": {
+    "name": "PS-Install-If-Missing"
   }
-  
+}
