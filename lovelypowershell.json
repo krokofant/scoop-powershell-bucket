@@ -1,12 +1,12 @@
 {
-  "version": "1.5",
-  "url": "https://github.com/krokofant/lovely-powershell/archive/master.zip",
-  "extract_dir": "lovely-powershell-master",
-  "psmodule": {
-    "name": "LovelyPowershell"
-  },
-  "depends": ["concfg", "ps-install-if-missing"],
-  "post_install": [
-    "PowerShell -NoProfile -ExecutionPolicy Bypass -Command \"& $dir\\post-install.ps1\""
-  ]
+    "version": "1.5",
+    "url": "https://github.com/krokofant/lovely-powershell/archive/master.zip",
+    "extract_dir": "lovely-powershell-master",
+    "psmodule": {
+        "name": "LovelyPowershell"
+    },
+    "depends": ["concfg", "ps-install-if-missing"],
+    "post_install": [
+        "PowerShell -NoProfile -ExecutionPolicy Bypass -Command \"& $dir\\post-install.ps1\""
+    ]
 }

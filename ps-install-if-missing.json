@@ -1,19 +1,19 @@
 {
-  "version": "1.4",
-  "url": "https://github.com/krokofant/scoop-powershell-bucket/archive/master.zip",
-  "hash": "AD946681F60D55AE4AC1128B097F9A42C0F1B60BB0141FA6888CDDDEB444594C",
-  "extract_dir": "scoop-powershell-bucket-master/modules/PS-Install-If-Missing",
-  "psmodule": {
-    "name": "PS-Install-If-Missing"
-  },
-  "checkver": {
-    "url": "https://raw.githubusercontent.com/krokofant/scoop-powershell-bucket/master/modules/PS-Install-If-Missing/PS-Install-If-Missing.psd1",
-    "re": "ModuleVersion\\s+=\\s+'([\\d.]+)'"
-  },
-  "autoupdate": {
+    "version": "1.4",
     "url": "https://github.com/krokofant/scoop-powershell-bucket/archive/master.zip",
-    "hash": {
-      "url": "https://raw.githubusercontent.com/krokofant/scoop-powershell-bucket/master/modules/PS-Install-If-Missing/SHASUM256.txt"
+    "hash": "AD946681F60D55AE4AC1128B097F9A42C0F1B60BB0141FA6888CDDDEB444594C",
+    "extract_dir": "scoop-powershell-bucket-master/modules/PS-Install-If-Missing",
+    "psmodule": {
+        "name": "PS-Install-If-Missing"
+    },
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/krokofant/scoop-powershell-bucket/master/modules/PS-Install-If-Missing/PS-Install-If-Missing.psd1",
+        "re": "ModuleVersion\\s+=\\s+'([\\d.]+)'"
+    },
+    "autoupdate": {
+        "url": "https://github.com/krokofant/scoop-powershell-bucket/archive/master.zip",
+        "hash": {
+            "url": "https://raw.githubusercontent.com/krokofant/scoop-powershell-bucket/master/modules/PS-Install-If-Missing/SHASUM256.txt"
+        }
     }
-  }
 }
