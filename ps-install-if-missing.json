@@ -11,10 +11,9 @@
     "re": "ModuleVersion\\s+=\\s+'([\\d.]+)'"
   },
   "autoupdate": {
-    "url": "https://raw.githubusercontent.com/krokofant/scoop-powershell-bucket/master/modules/PS-Install-If-Missing/PS-Install-If-Missing.psd1",
+    "url": "https://github.com/krokofant/scoop-powershell-bucket/archive/master.zip",
     "hash": {
-      "url": "https://raw.githubusercontent.com/krokofant/scoop-powershell-bucket/master/modules/PS-Install-If-Missing/PS-Install-If-Missing.psd1",
-      "mode": "download"
+      "url": "https://raw.githubusercontent.com/krokofant/scoop-powershell-bucket/master/modules/PS-Install-If-Missing/SHASUM256.txt"
     }
   }
 }
