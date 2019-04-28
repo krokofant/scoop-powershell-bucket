@@ -6,7 +6,7 @@ function Get-Hash($string) {
   Set-Content $tempFile $string
   $hash = Get-FileHash $tempFile
   $tempFile.Delete()
-  return $hash.Hash
+  return $hash.Hash.ToLower()
 }
 
 foreach ($module in $modules) {
