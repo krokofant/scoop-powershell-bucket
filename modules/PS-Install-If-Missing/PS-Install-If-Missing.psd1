@@ -1,7 +1,7 @@
 ﻿@{
     RootModule        = 'PS-Install-If-Missing.psm1'
 
-    ModuleVersion     = '1.3'
+    ModuleVersion     = '1.4'
 
     GUID              = 'b0d021d8-16c2-4d0a-a398-a977fce17914'
 

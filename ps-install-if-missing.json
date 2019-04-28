@@ -1,7 +1,7 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "url": "https://github.com/krokofant/scoop-powershell-bucket/archive/master.zip",
-  "hash": "f0ee361a0cc501dbc1932dec46ce25faaa7e53218efc52c68256379f9c285317",
+  "hash": "AD946681F60D55AE4AC1128B097F9A42C0F1B60BB0141FA6888CDDDEB444594C",
   "extract_dir": "scoop-powershell-bucket-master/modules/PS-Install-If-Missing",
   "psmodule": {
     "name": "PS-Install-If-Missing"
