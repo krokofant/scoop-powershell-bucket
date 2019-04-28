@@ -1,16 +1,13 @@
 {
     "version": "1.4",
-    "url": "https://github.com/krokofant/PS-Install-If-Missing/archive/master.zip",
-    "hash": "8b5594b40dbded499c88c586da3b8b1d8cdf2e59472f6f80c8a6624dffd5b70d",
-    "extract_dir": "PS-Install-If-Missing-master",
+    "url": "https://github.com/krokofant/PS-Install-If-Missing/releases/download/1.4/PS-Install-If-Missing.zip",
+    "hash": "78b77ac5086e0c9a48dd66b3bb53fe854b3e4ada7dbfafa153700856cd76a154",
     "psmodule": {
         "name": "PS-Install-If-Missing"
     },
-    "checkver": {
-        "url": "https://raw.githubusercontent.com/krokofant/PS-Install-If-Missing/master/PS-Install-If-Missing.psd1",
-        "re": "ModuleVersion\\s+=\\s+'([\\d.]+)'"
-    },
+    "homepage": "https://github.com/krokofant/PS-Install-If-Missing",
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/krokofant/PS-Install-If-Missing/archive/master.zip"
+        "url": "https://github.com/krokofant/PS-Install-If-Missing/releases/download/$version/PS-Install-If-Missing.zip"
     }
 }
