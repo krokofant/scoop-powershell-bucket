@@ -2,7 +2,6 @@
     "version": "1.5",
     "url": "https://github.com/krokofant/lovely-powershell/releases/download/1.5/lovely-powershell.zip",
     "hash": "c47c4e44fcbd90543efc71a09b1973599dde3a61cf3f20afe831eda1a54c463d",
-    "extract_dir": "lovely-powershell-master",
     "psmodule": {
         "name": "LovelyPowershell"
     },
