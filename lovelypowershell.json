@@ -1,11 +1,14 @@
 {
-    "version": "1.5",
-    "url": "https://github.com/krokofant/lovely-powershell/releases/download/1.5/lovely-powershell.zip",
-    "hash": "c47c4e44fcbd90543efc71a09b1973599dde3a61cf3f20afe831eda1a54c463d",
+    "version": "1.6",
+    "url": "https://github.com/krokofant/lovely-powershell/releases/download/1.6/lovely-powershell.zip",
+    "hash": "3eaab4b18c7ff36734a6d62778bed02751a7317da4fbb41808feb611d2f6efd3",
     "psmodule": {
         "name": "LovelyPowershell"
     },
-    "depends": ["concfg", "ps-install-if-missing"],
+    "depends": [
+        "concfg",
+        "ps-install-if-missing"
+    ],
     "post_install": "PowerShell -NoProfile -ExecutionPolicy Bypass -Command \"& $dir\\post-install.ps1\"",
     "homepage": "https://github.com/krokofant/lovely-powershell",
     "checkver": "github",
