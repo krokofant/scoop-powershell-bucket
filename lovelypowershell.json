@@ -1,7 +1,7 @@
 {
-    "version": "1.7",
-    "url": "https://github.com/krokofant/lovely-powershell/releases/download/1.7/lovely-powershell.zip",
-    "hash": "203c2b101377aefc157de4b27d8ee03663faa0b8c6335dbaee41c4501f94dd8e",
+    "version": "1.8",
+    "url": "https://github.com/krokofant/lovely-powershell/releases/download/1.8/lovely-powershell.zip",
+    "hash": "69b5660824739510fcaf4d8b652dbee8078b40d9486c5c53715cc302ef3ce92c",
     "psmodule": {
         "name": "LovelyPowershell"
     },
