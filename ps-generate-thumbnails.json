@@ -5,6 +5,7 @@
     "psmodule": {
         "name": "PS-Generate-Thumbnails"
     },
+    "depends": ["mtn"],
     "homepage": "https://github.com/krokofant/PS-Generate-Thumbnails",
     "checkver": "github",
     "autoupdate": {
