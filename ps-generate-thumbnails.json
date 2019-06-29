@@ -1,11 +1,11 @@
 {
-    "version": "0.1",
-    "url": "https://github.com/krokofant/PS-Generate-Thumbnails/releases/download/0.1/PS-Generate-Thumbnails.zip",
-    "hash": "c4c4014dff4453bedd27f58e8e3328df4026e8e03c90543238bca0e4c8886030",
+    "version": "0.2",
+    "url": "https://github.com/krokofant/PS-Generate-Thumbnails/releases/download/0.2/PS-Generate-Thumbnails.zip",
+    "hash": "54ed630fbd79bad7ed123d5df49859c4fc0c64c8b8f5930e6c7dff2f3c3f0536",
     "psmodule": {
         "name": "PS-Generate-Thumbnails"
     },
-    "depends": ["mtn"],
+    "depends": "mtn",
     "homepage": "https://github.com/krokofant/PS-Generate-Thumbnails",
     "checkver": "github",
     "autoupdate": {
